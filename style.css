@@ -1,0 +1,269 @@
+
+ input::-webkit-outer-spin-button,
+ input::-webkit-inner-spin-button {
+   -webkit-appearance: none;
+   margin: 0;
+ }
+ 
+ /* Firefox */
+ input[type=number] {
+   -moz-appearance: textfield;
+ }
+ select {
+            margin-top: 10px;
+            background-color: #f0fff6;
+            width: 90%;
+            height: 40px;
+            border-radius: 3px;
+            font-weight: 400;
+            opacity: 0.5;
+            appearance: none;
+            line-height: 1;
+
+        }
+        button {
+            margin-top: 10px;
+            margin-bottom: 20px;
+            width: 30%;
+            background-color: #ccd138;
+            height: 40px;
+            border-color: #ccd138;
+            padding-bottom:10px;
+           
+        }
+
+        .form1 {
+            border: 2px #434747;
+            background-color: #dee1e3;
+            border-radius: 5px;
+            height: 320px auto;
+            /* padding-right:10%; */
+
+        }
+        @media(max-width:752px)
+        {
+        form {
+            margin-top: 5%; 
+            margin-right: 5%;
+            margin-left: 5%;
+            padding-top: 2%;
+        }
+        .btnn {
+            margin-top: 10px;
+            margin-bottom: 20px;
+            width: 100%;
+            background-color: #ccd138;
+            height: 40px;
+            border-color: #ccd138;
+        }
+        .body{
+            
+            background-image:none;
+
+        }
+        h1{
+            color:black;
+            font-size:7vw;
+
+        }
+        h5{
+            font-size:1vw;
+        }
+        /* .btnn{
+            margin-bottom:100px;
+        } */
+        }
+        @media(min-width:752px){
+            form{
+            margin-top: 1%;
+            margin-right: 25%;
+            margin-left: 15%;
+            
+            }
+        
+        .btnn {
+            margin-top: 20px;
+            
+            /* margin-bottom: 20px; */
+            width: 100%;
+            background-color: #ccd138;
+            height: 40px;
+            border-color: #ccd138;
+        }
+        }
+        input[type=number] {
+            width: 90%;
+            height: 40px;
+            border-radius: 3px;
+            background-color: #f4f4f4;
+            margin-top: 10px;
+            font-weight: 400;
+            opacity: 1;
+            border-color:#babfbc;
+           
+        }
+
+        label {
+            font-size: 22px;
+
+        }
+
+        h1 {
+            color: #ddd;
+        }
+
+        h3 {
+            color: #ddd;
+        }
+
+       
+        .body {
+            background-image: url("taxi4.jpg");
+            height: 590px auto ;
+            background-size:100% 100%;
+            /* background-size:cover; */
+            background-repeat:no-repeat;
+            text-align: center;
+            
+            /* margin-top:-15px;
+             */
+        }
+
+        p {
+            /* font-size: 30px; */
+           
+            /* font-weight: 700; */
+        }
+
+        * {
+            margin: 0px;
+            padding: 0px;
+            text-decoration: none;
+            list-style: none;
+            box-sizing: border-box;
+
+        }
+
+        nav {
+            background-color: #474645;
+            width: 100%;
+            height: 80px;
+        }
+
+        label.logo {
+            color: white;
+            font-size: 35px;
+            line-height: 80px;
+            padding: 0 100px;
+            font-weight: bold;
+        }
+
+        nav ul {
+            float: right;
+            margin-right: 20px;
+        }
+
+        nav ul li {
+            display: inline;
+            line-height: 80px;
+            margin: 0 5px;
+        }
+
+        nav ul li a {
+            color: white;
+            font-size: 17px;
+            text-transform: uppercase;
+            font-weight: 700;
+        }
+
+        a.active,
+        a:hover {
+            /* background-color: yellow; */
+            transition: .5s;
+        }
+
+        .checkbtn {
+            font-size: 30px;
+            color: white;
+            float: right;
+            line-height: 80px;
+            margin-right: 40px;
+            cursor: pointer;
+            display: none;
+        }
+
+        #check {
+            display: none;
+        }
+
+        @media(max-width:952px) {
+            label.logo {
+                font-size: 30px;
+                padding-left: 50px;
+            }
+
+            nav ul li a {
+                font-size: 16px;
+            }
+        }
+
+        @media(max-width:858px) {
+            .checkbtn {
+                display: block;
+
+            }
+
+            ul {
+                position: fixed;
+                width: 100%;
+                height: 53vh;
+                background: #404040;
+                top: 80px;
+                left: -100%;
+                text-align: center;
+                transition: all .5s;
+                z-index: 99;
+                opacity: 0.9;
+            }
+
+            nav ul li {
+                display: block;
+                margin: 50px 0;
+                line-height: 10px;
+            }
+
+            nav ul li a {
+                font-size: 20px;
+            }
+
+            #check:checked~ul {
+                left: 0;
+            }
+        }
+        .fo{
+            padding-top:10px;
+        }
+       @media  (max-width:320px){
+        label.logo {
+            color: white;
+            font-size: 35px;
+            line-height: 20px;
+           margin-left:-30px;
+            font-weight: bold;
+           
+        }
+          
+
+       }
+       @media  (max-width:280px){
+        label.logo {
+            color: white;
+            font-size: 35px;
+            line-height: 20px;
+           margin-left:-58px;
+            font-weight: bold;
+           
+        }
+          
+
+       }
